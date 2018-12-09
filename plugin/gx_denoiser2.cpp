@@ -123,7 +123,7 @@ Gx_denoiser2_::Gx_denoiser2_() :
   input(NULL),
   denoiser2(denoiser2::plugin()),
   bypass(0),
-  bypass_(0),
+  bypass_(2),
   needs_ramp_down(false),
   needs_ramp_up(false),
   bypassed(false) {};
